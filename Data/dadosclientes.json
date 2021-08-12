@@ -1,21 +1,13 @@
 {
-    "clientes": [
-        {
-        "clientId": 1,
-        "cadastro": "2016-12-14",
-        "nome":"Mauro Roberto da Cruz Cunha",
-        "cpf": "01345464070",
-        "idade":35,	
-        "endereco": [
-            {   "logradouro": "",
-                "bairro": "teste",
-                "cidade":"Brasília",
-                "estado": "DF"
-            }
-        ],
-        "status do pedido": "",
-        "codigo_rastreamento": "",
-        "prestador": "João Ferreira da Silva"
-        }
+    "clientId": 1,
+    "cadastro": "2016-12-14",
+    "nome":"Angelo",
+    "idade":86,
+    "cidade":"São Paulo",
+    "estado": "SP",	
+    "pets":[
+        { "animal":"cachorro", "nome":"Fido" },
+        { "animal":"gato", "nome":"Felix" },
+        { "animal":"hamster", "nome":"luzinha" }
     ]
 }
