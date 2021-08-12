@@ -1,0 +1,48 @@
+{
+    "codigo":"OO739961710BR",
+    "servico":"",
+    "host":"tk",
+    "quantidade":5,
+    "eventos": [ {
+        "data":"23/06/2021",
+        "hora":"15:49",
+        "local":"TAUBATE/SP",
+        "status":"Objeto entregue ao destinatário",
+        "subStatus":[]
+        },
+        {
+        "data":"23/06/2021",
+        "hora":"10:15",
+        "local":"TAUBATE/SP",
+        "status":"Objeto saiu para entrega ao destinatário",
+        "subStatus":[]
+        },
+        {
+        "data":"23/06/2021",
+        "hora":"05:58",
+        "local":"SAO JOSE DOS CAMPOS/SP",
+        "status":"Objeto encaminhado",
+        "subStatus":[
+            "Origem: Unidade de Tratamento - SAO JOSE DOS CAMPOS/SP",
+            "Destino: Unidade de Distribuição - TAUBATE/SP"
+            ]
+        },
+        {
+        "data":"22/06/2021",
+        "hora":"09:03",
+        "local":"SAO JOSE DOS CAMPOS/SP",
+        "status":"Objeto encaminhado",
+        "subStatus":[
+            "Origem: Agência dos Correios - SAO JOSE DOS CAMPOS/SP",
+            "Destino: Unidade de Tratamento - SAO JOSE DOS CAMPOS/SP"
+            ]
+        },
+        {
+        "data":"21/06/2021",
+        "hora":"19:53",
+        "local":"SAO JOSE DOS CAMPOS/SP",
+        "status":"Objeto postado após o horário limite da unidade",
+        "subStatus":[]
+        }
+        ]
+    }
