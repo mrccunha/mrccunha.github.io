@@ -43,3 +43,13 @@
     }
     
     imprimeArray(dbClientes);
+    console.clear();
+
+function mySandwich(param1, param2, callback) {
+  console.log('Started eating my sandwich. It has: ' + param1 + ', ' + param2);
+  callback();
+}
+
+mySandwich('ham', 'cheese', function() {
+  console.log('Finished eating my sandwich.');
+});
