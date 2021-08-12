@@ -30,7 +30,8 @@
         prestador: "João Ferreira da Silva"
     }
     ]
-    };
+    }
+    ];
 
 
     function imprimeArray(lista) {
@@ -41,4 +42,4 @@
       return listaNomes
     }
     
-    console.log(imprimeArray(dbClientes)
+    imprimeArray(dbClientes);

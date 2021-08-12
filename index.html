@@ -1,18 +1,35 @@
-<body>
-    <script type="text/javascript" src="Data/dadosclientes.json"></script>
-    <script type="text/javascript" src="Data/javascrip.js"></script>
+<html>
+    <body>
+        
+        <script>
+            var listaDadosClientes = [
+{
+nome: 'Mauro',
+idade: 24,
+endereco: 'Rua Freire, 24, Consolação, São Paulo'
+},
+{
+nome: 'Gabriel',
+idade: 19,
+endereco: 'Rua Armando sá, 47, Perdizes, São Paulo'
+},
+{
+nome: 'Bruno',
+idade: 37,
+endereco: 'Av. Santos Dumont, 978, Belo Horizonte, Minas Gerais'
+}
+]
 
-    <script>
-    
-    var xmlhttp = new XMLHttpRequest();
-    xmlhttp.onreadystatechange = function() {
-      if (this.readyState == 4 && this.status == 200) {
-        xmlhttp.open("POST", "dadosclientes.json", true);
-        xmlhttp.send("teste");
-      }
-    }
-    console.log("teste")
+function imprimeArray(lista) {
+  var listaNomes = [] 
+  for (i = 0; i < lista.length; i++) {
+    listaNomes[i] = lista[i].nome
+  }
+  return listaNomes
+}
 
-    </script>
+console.log(imprimeArray(listaDadosClientes))
+
+        </script>
     </body>
-    </html>
+</html>
