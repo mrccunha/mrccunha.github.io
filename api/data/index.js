@@ -1,54 +1,39 @@
-var obj = [   
+
+var obj = {
+  "nextId": 501,
+  "dados": [
     {
-    clientes: [
+      "id": 1,
+      "cliente": "Isabela Assis Cardoso",
+      "cpf": "97143975613",
+      "valor": 26,
+      "entregue": true,
+      "timestamp": "2021-05-02T19:48:09.765Z"
+    },
     {
-        clientId: 1,
-        cadastro: "25/03/2020",
-        nome:"Mauro Roberto da Cruz Cunha",
-        cpf: "12345678909",
-        idade: 35,
-        endereco: [
-        {   cep: "71070-900",
-            logradouro: "Área Especial 4 Lotes G/H",
-            complemento: "Residencial Olympique",
-            bairro: "Guará II",
-            localidade: "Brasília",
-            uf: "DF",
-            numero: "1401",
-            ddd: "61",
-            celular: "95555-5555",
-            email: "rocketbot@rocketbot.io"
-        }
-        ],
-        ultimospedidos: [
-        {   codigo_pedido: "8498-21",
-            descricao: "Cozinha Completa 100% MDF Madesa Smart 300 cm Modulada Com Armário, Balcão e Tampo Frentes Branco Brilho",               
-            status_do_pedido: "Enviado",
-            codigo_rastreamento: "OJ022510650BR"
-        }
-        ],
-        prestador: "João Ferreira da Silva"
+      "id": 2,
+      "cliente": "Ana Luiza Monteiro",
+      "cpf": "36965955600",
+      "valor": 28,
+      "entregue": true,
+      "timestamp": "2021-05-02T19:48:09.765Z"
+    },
+    {
+      "id": 3,
+      "cliente": "Aline Lombardi Fernandes",
+      "cpf": "10196759854",
+      "valor": 26,
+      "entregue": true,
+      "timestamp": "2021-05-02T19:48:09.765Z"
     }
-    ]
-    }
-    ];
-
-
-function retornaCliente(lista) {
-      var listaNomes = [] 
-      for (i = 0; i < lista.length; i++) {
-        listaNomes[i] = lista[i].nome
-      }
-      return listaNomes
-    };
-
-retornaCliente(obj);
-
-function cliente(params) {
+  ]
+}
+  
+  function cliente(params) {
     return {
-      code: 200
+      code: 200,
       body: JSON.obj
     }
 }
 
-module.exports = (cliente);
+module.exports.cliente(obj);
