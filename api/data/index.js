@@ -34,7 +34,7 @@ var obj = [
     ];
 
 
-function imprimeArray(lista) {
+function retornaCliente(lista) {
       var listaNomes = [] 
       for (i = 0; i < lista.length; i++) {
         listaNomes[i] = lista[i].nome
@@ -42,18 +42,13 @@ function imprimeArray(lista) {
       return listaNomes
     };
 
-    imprimeArray(dbClientes);
+retornaCliente(obj);
 
-function retornaCliente(params) {
+function cliente(params) {
     return {
       code: 200
-      body: obj
+      body: JSON.obj
     }
 }
 
-module.exports.(retornaCliente) {
-  return {
-    Code: 200,
-    body: JSON.obj
-  };
-};
+module.exports = (cliente);
