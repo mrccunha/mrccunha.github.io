@@ -1,4 +1,4 @@
- var dbClientes = [   
+var obj = [   
     {
     clientes: [
     {
@@ -34,22 +34,26 @@
     ];
 
 
-    function imprimeArray(lista) {
+function imprimeArray(lista) {
       var listaNomes = [] 
       for (i = 0; i < lista.length; i++) {
         listaNomes[i] = lista[i].nome
       }
       return listaNomes
-    }
-    
-    imprimeArray(dbClientes);
-    console.clear();
+    };
 
-function mySandwich(param1, param2, callback) {
-  console.log('Started eating my sandwich. It has: ' + param1 + ', ' + param2);
-  callback();
+    imprimeArray(dbClientes);
+
+function retornaCliente(params) {
+    return {
+      code: 200
+      body: obj
+    }
 }
 
-mySandwich('ham', 'cheese', function() {
-  console.log('Finished eating my sandwich.');
-});
+module.exports.(retornaCliente) {
+  return {
+    Code: 200,
+    body: JSON.obj
+  };
+};
