@@ -1,5 +1,5 @@
 
-var obj = {
+var obj = [
   "nextId": 501,
   "dados": [
     {
@@ -27,7 +27,7 @@ var obj = {
       "timestamp": "2021-05-02T19:48:09.765Z"
     }
   ]
-}
+]
   
   function cliente(params) {
     return {
@@ -36,4 +36,9 @@ var obj = {
     }
 }
 
-module.exports.cliente(obj);
+module.exports.cliente = (obj) => {
+  return {
+    code: 3000,
+    body: "mauro"
+  }
+};
