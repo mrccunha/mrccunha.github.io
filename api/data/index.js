@@ -28,8 +28,12 @@ var obj = [
     }
   ]
 ]
-  
-module.exports.retornaLista = (obj) => {
+function retornaLista(cpf) {
+  return obj;
+}
+
+
+module.exports = retornaLista = (obj) => {
   //código
   return {
     code: 200,
