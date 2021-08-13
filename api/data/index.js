@@ -32,6 +32,6 @@ var obj = [
 module.exports.retornaLista = (obj) => {
   //código
   return {
-    code: 333,
-    body: "array final"
+    code: 200,
+    body: JSON.obj
   }
