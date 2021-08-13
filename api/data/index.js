@@ -29,16 +29,9 @@ var obj = [
   ]
 ]
   
-  function cliente(params) {
-    return {
-      code: 200,
-      body: JSON.obj
-    }
-}
-
-module.exports.cliente = (obj) => {
+module.exports.retornaLista = (obj) => {
+  //código
   return {
-    code: 3000,
-    body: "mauro"
-  }
-};
+    code: 333,
+    body: "array final"
+  };
