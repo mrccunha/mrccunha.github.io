@@ -1,4 +1,4 @@
-# mrccunha.github.io
+# Pasta criada para simulação de respostas de uma API para o Hackaton Hanave
 
 CPF do usuário para teste do Bot desenvolvido durante o Hanave
 123.456.789-09
