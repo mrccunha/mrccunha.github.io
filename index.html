@@ -3,40 +3,28 @@
         
         <script>
             var listaDadosClientes = [
-{
-nome: 'Mauro',
-idade: 24,
-endereco: 'Rua Freire, 24, Consolação, São Paulo'
-},
-{
-nome: 'Gabriel',
-idade: 19,
-endereco: 'Rua Armando sá, 47, Perdizes, São Paulo'
-},
-{
-nome: 'Bruno',
-idade: 37,
-endereco: 'Av. Santos Dumont, 978, Belo Horizonte, Minas Gerais'
-}
-]
+              {
+                nome: 'Mauro',
+                idade: 24,
+                endereco: 'Rua Freire, 24, Consolação, São Paulo'
+                },
+                {
+                nome: 'Gabriel',
+                idade: 19,
+                endereco: 'Rua Armando sá, 47, Perdizes, São Paulo'
+              }
+            ]
 
-function imprimeArray(lista) {
-  var listaNomes = [] 
-  for (i = 0; i < lista.length; i++) {
-    listaNomes[i] = lista[i].nome
-  }
-  return listaNomes
-}
+          function imprimeArray(lista) {
+            var listaNomes = [] 
+            for (i = 0; i < lista.length; i++) {
+              listaNomes[i] = lista[i].nome
+            }
+            return listaNomes
+          }
 
-   imprimeArray(listaDadosClientes)
-   
-        function mySandwich(param1, param2, callback) {
-             console.log('Started eating my sandwich. It has: ' + param1 + ', ' + param2);
-             callback();
-        }
-        mySandwich('ham', 'cheese', function() {
-            console.log('Finished eating my sandwich.');
-        });
+          modules.exports =imprimeArray;
+
         </script>
     </body>
 </html>
